@@ -1,0 +1,48 @@
+  /* ==UserStyle==
+@name           Rust Blog Dark
+@namespace      github.com/teohhanhui
+@version        0.1.0
+@description    Dark theme for Rust Blog
+@author         Teoh Han Hui <teohhanhui@gmail.com>
+@license        MIT
+==/UserStyle== */
+  @-moz-document domain("blog.rust-lang.org") {
+    body {
+      background-color: #000;
+      color: #ddd;
+    }
+
+    .nav a {
+      color: #d5cbc6;
+    }
+
+    div.brand a {
+      color: #fff;
+    }
+
+    div.brand img {
+      filter: invert(1);
+    }
+
+    .white {
+      color: #fff;
+    }
+
+    .white a {
+      color: #d5cbc6;
+    }
+
+    .white code {
+      color: #fff;
+      background-color: rgba(213, 203, 198, 0.05);
+      border: 1px solid rgba(213, 203, 198, 0.25);
+    }
+
+    .white a.anchor::before {
+      color: #d5cbc6;
+    }
+
+    .publish-date-author {
+      color: #d5cbc6;
+    }
+  }
